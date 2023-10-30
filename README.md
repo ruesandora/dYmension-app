@@ -1,4 +1,5 @@
-#
+<h1 align="center">dYmension - IBC - TX</h1>
+
 
 ### Bu içerikte katkısı bulunan arkadaşlara hepimiz adına teşekkürlerimizi iletirim
 
@@ -6,17 +7,26 @@
 
 #
 
+<h1 align="center">Bu reponun amacı nedir?</h1>
+
+> Bu tweetimde ki işlemleri daha kolay hale getirmek.
+
+> Maksimum ödüle erişemek.
+
+> Tek yiyen tek ölür mottosu ile birlik olmak.
+
+#
+
 > Not: Bu ağda RUES ağından örnek verilmiştir, kullandıktan sonra diğer ağlarda da aynı işlemleri yapabilirsiniz
 
 #
 
-### 1- Keplrdan - Ayarlar kısmından, Geliştiric modunu açalım.
+<h1 align="center">Gelişitirici Modu Açma</h1>
 
 ![image](https://github.com/ruesandora/dYmension-app/assets/101149671/6facc742-ae5a-4e9a-b224-576771de29ec)
 
 
-
-## 2- Ağları ekleme:
+<h1 align="center">Ağları ekleme</h1>
 
 > Şimdi Roll Applerin ağlarını cüzdanımıza ekleyeceğiz (IBC transfer kısmında lazım olacak)
 
@@ -28,7 +38,7 @@
 ![image](https://github.com/enzifiri/dym-auto-ibc-tx/assets/76253089/354b75c4-8322-4e2b-ae1b-5ad57114578f)
 
 
-## 3- Developer modu kullanma
+<h1 align="center">Developer modu kullanma</h1>
 
 > [Burada](chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap/popup.html) verdiğim urlyi tarayıcınızda yeni sekme açıp aratın. 
 
@@ -37,7 +47,7 @@
 ![image](https://github.com/enzifiri/dym-auto-ibc-tx/assets/76253089/51b8a444-620e-49b8-a21d-77f0378ae5f3)
 
 
-## 4- Channel-id ekleme
+<h1 align="center">Channel-id ekleme</h1>
 
 > DYM tokeni seçin ve Desnation chain kısmına basın en altta New IBC Trasnfer channele basın.
 
@@ -52,8 +62,7 @@
 ![image](https://github.com/enzifiri/dym-auto-ibc-tx/assets/76253089/8393cb2e-829b-4dc6-9c46-c1cf3f11d8ed)
 
 
-
-## 5- rollapp'i kullanma
+<h1 align="center">Rollapp'leri kullanma</h1>
 
 > Wallet addres kısmına hangi rollapp'i kullanacaksak onun adresini girmemiz gerekiyor.
 
@@ -64,7 +73,7 @@
 ![image](https://github.com/enzifiri/dym-auto-ibc-tx/assets/76253089/7eb183c1-4c93-48af-8de2-3235a861ffb4)
 
 
-## 6- Bir kaç TX yapmak:
+<h1 align="center">TX yapmak</h1>
 
 > Sonrasına Amount kısmına rastgele sayılar yazıp tx atın.. 
 
