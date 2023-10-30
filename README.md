@@ -21,7 +21,7 @@
 
 <h1 align="center">Bu reponun amacı nedir?</h1>
 
-> Bu tweetimde ki işlemleri daha kolay hale getirmek.
+> Bu [tweetimde](https://x.com/Ruesandora0/status/1719086955370037650?s=20) ki işlemleri daha kolay hale getirmek.
 
 > Maksimum ödüle erişemek.
 
