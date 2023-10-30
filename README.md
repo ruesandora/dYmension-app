@@ -172,7 +172,7 @@ anaIslem();
 
 > Tüm Rollapp ağlarını ekleyelim, Otomatik tx işlemi yapacaksanız ağı ekledikten sonra 4. aşamayı yapmanız gerekiyor.
 
-> Sonradan gelecek ağlarıda burada listeleyeceğim
+> Sonradan gelecek ağlarıda [burada](https://github.com/ruesandora/dYmension-app/blob/main/README.md#sonradan-gelenler) listeleyeceğim
 
 <a href="https://portal.dymension.xyz/rollapp/rues_2215298-1" target="_blank">.1 Ruesandora</a>  <br>
 <a href="https://portal.dymension.xyz/rollapp/aazifiri_7919697-1" target="_blank">.2 Enzifiri</a>  <br>
