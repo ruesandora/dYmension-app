@@ -199,7 +199,7 @@ anaIslem();
 
 > Sonradan gelecek ağlarıda [burada](https://github.com/ruesandora/dYmension-app/blob/main/README.md#sonradan-gelenler) listeleyeceğim
 
-> Alttaki siteye girin, Keplr cüzdanı bağlayın, sonrasında tüm butonlara sırasıyla basarak ağı cüzdana ekleyin.
+> Alttaki siteye girin, Keplr cüzdanı bağlayın, sonrasında tüm butonlara sırasıyla basarak ağı cüzdana ekleyin. <br>
 [Ağları hızlıca eklemek için Website.](http://135.181.255.93/)
 
 # Sonradan gelenler
