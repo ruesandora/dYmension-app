@@ -72,7 +72,7 @@
 
 > Bilgileri girdikten sonra save diyip kaydedin.
 
-> Kendi veya başkasının channel-id nasıl öğrenirim? burada
+> Kendi veya başkasının channel-id nasıl öğrenirim? [burada](https://github.com/ruesandora/dYmension-app/blob/main/channel-id.md)
 
 ![image](https://github.com/enzifiri/dym-auto-ibc-tx/assets/76253089/8393cb2e-829b-4dc6-9c46-c1cf3f11d8ed)
 
