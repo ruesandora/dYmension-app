@@ -53,7 +53,9 @@
 
 <h1 align="center">Developer modu kullanma</h1>
 
-> [Burada](chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap/popup.html) verdiğim urlyi tarayıcınızda yeni sekme açıp aratın. 
+> Altta verdiğim urlyi tarayıcınızda yeni sekme açıp aratın. 
+
+> chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap/popup.html
 
 > Sonrasında en alttaki Advanced IBC ksımındaki Transfer butonuna basın.
 
