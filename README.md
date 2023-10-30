@@ -35,7 +35,8 @@
 
 <h1 align="center">Gelişitirici Modu Açma</h1>
 
-![image](https://github.com/ruesandora/dYmension-app/assets/101149671/6facc742-ae5a-4e9a-b224-576771de29ec)
+![image](https://github.com/ruesandora/dYmension-app/assets/101149671/e63721c8-3e6a-4369-bae9-ceaeadc42a5f)
+
 
 
 <h1 align="center">Ağları ekleme</h1>
