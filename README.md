@@ -7,6 +7,18 @@
 
 #
 
+<h1 align="center">SUPRİZZZ</h1>
+
+> Eğer bir app kodlayamadıysan bu app'de kendi ağını ve tokenini kullanabilirsin
+
+> http://ruescompare.xyz/
+
+> Kendi ağınızın etkileşiminizi arttırabilirsiniz böylece.
+
+> Ayrıca arbitrajcılara kolay bir app :D
+
+#
+
 <h1 align="center">Bu reponun amacı nedir?</h1>
 
 > Bu tweetimde ki işlemleri daha kolay hale getirmek.
