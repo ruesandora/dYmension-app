@@ -33,6 +33,22 @@
 
 #
 
+<h1 align="center">Basit Yöntem</h1>
+
+> [Bu Websiteye](http://135.181.255.93/) gidin, Öncelikle Cüzdanınızı bağlayın ve 85 Tane ağın hepsini tıklayarak Keplr cüzdana ekleyin.
+
+
+> Sonra sayfanın altındaki Portal linkleri kısmından butonlara sırasıyla tıklayıp her birinde 1-2 tx yapın.
+
+> Hem Kendimizin hem de Communitydekilerin Rollup Aktif adresi artması için tüm rollupları sırasıyla kullanın.
+![image](https://github.com/enzifiri/dYmension-app/assets/76253089/a97929db-79ce-4527-b809-059845baca84)
+
+#
+
+<h1 align="center">Zor Yöntem</h1>
+
+#
+
 <h1 align="center">Gelişitirici Modu Açma</h1>
 
 ![image](https://github.com/enzifiri/dYmension-app/assets/76253089/adf90139-caea-4831-8d69-d361f9f2f66e)
