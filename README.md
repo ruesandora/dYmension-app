@@ -35,10 +35,7 @@
 
 <h1 align="center">Basit Yöntem</h1>
 
-> [Bu Websiteye](http://135.181.255.93/) gidin, Öncelikle Cüzdanınızı bağlayın ve 85 Tane ağın hepsini tıklayarak Keplr cüzdana ekleyin.
-
-
-> Sonra sayfanın altındaki Portal linkleri kısmından butonlara sırasıyla tıklayıp her birinde 1-2 tx yapın.
+> Altta verdiğim linklerden sırasıyla girin, Deposit işlemi yapın, 2 tx yapmanız yeterli
 
 > Hem Kendimizin hem de Communitydekilerin Rollup Aktif adresi artması için tüm rollupları sırasıyla kullanın.
 
