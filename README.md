@@ -129,6 +129,9 @@
 [zero_9121816-1](https://portal.dymension.xyz/rollapp/zero_9121816-1)
 [enyas_1686868-1](https://portal.dymension.xyz/rollapp/enyas_1686868-1)
 [yaznodes_4221705-1](https://portal.dymension.xyz/rollapp/yaznodes_4221705-1)
+[xyvz_1650511-1](https://portal.dymension.xyz/rollapp/xyvz_1650511-1)
+[dymgalen_6981774-1](https://portal.dymension.xyz/rollapp/dymgalen_6981774-1)
+[mubarekt_2939717-1](https://portal.dymension.xyz/rollapp/mubarekt_2939717-1)
 
 #
 
