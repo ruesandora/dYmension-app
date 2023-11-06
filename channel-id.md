@@ -6,7 +6,7 @@
 
 ![image](https://github.com/ruesandora/dYmension-app/assets/101149671/ea1276a8-bd52-4596-9714-30bea25ebfed)
 
-> [Web Sitede](http://135.181.255.93/) Listeli olan arkadaşların Channel IDlerini aşağıda bulabilirsin.
+> Floodda Listeli olan arkadaşların Channel IDlerini aşağıda bulabilirsin.
 
 0xKnowledgeE 6174 <br>
 Aeithalides 5962 <br>
