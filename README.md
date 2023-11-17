@@ -295,21 +295,8 @@ anaIslem();
 ```
 #
 
-> Aşağıda rollapp'in listeli değilse bana aşağıda ki sıralamayı bozmadan bir Pull Request gönderebilirsin seni eklemem için.
-
-#
-
 > Şimdi diğer arkadaşlarımızın Rollapp Ağlarını da cüzdanlarımıza ekleyelim
 
 > Ne kadar çok doğru rollappta işlem yaparsak (tweette anlattım), o kadar iyi
 
-> Tüm Rollapp ağlarını ekleyelim, Otomatik tx işlemi yapacaksanız ağı ekledikten sonra 4. aşamayı yapmanız gerekiyor.
-
-> Sonradan gelecek ağlarıda [burada](https://github.com/ruesandora/dYmension-app/blob/main/README.md#sonradan-gelenler) listeleyeceğim
-
-> Alttaki siteye girin, Keplr cüzdanı bağlayın, sonrasında tüm butonlara sırasıyla basarak ağı cüzdana ekleyin. <br>
-[Ağları hızlıca eklemek için Website.](http://135.181.255.93/)
-
-# Sonradan gelenler
-
-..
+> Sonradan listeleyen kişiler Telegramdan @enzifiri ye ulaşsın.
