@@ -232,68 +232,58 @@ async function anaIslem() {
     const bekle = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
     while (true) {
+        // Rastgele bir miktar oluştur (örneğin, 0.01 ile 0.09 arasında) ve 0.09'dan küçük olana kadar devam et
+        let randomAmount;
+        do {
+            randomAmount = (Math.random() * (0.09 - 0.01) + 0.01).toFixed(2);
+        } while (randomAmount >= 1);
+
         // BASKASINA TRANSFER YAPACAKSANIZ BURDAKİ URLYİ DEĞİŞTİRİN. (default rues_221....)
-        window.location.href = 'chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap/popup.html#/ibc-transfer?chainId=froopyland_100-1&coinMinimalDenom=udym&initialGasAdjustment=1.3&initialIBCChannels=%5B%7B%22channelId%22%3A%22channel-6195%22%2C%22counterpartyChainId%22%3A%22rues_2215298-1%22%2C%22portId%22%3A%22transfer%22%7D%5D&initialRecipient=ethm1hmssffakpll0d3hesk2j8s286zd9yfv0pzlcag&initialFeeCurrency=udym&initialFeeType=average&initialAmount=0.01';
+        window.location.href = `chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap/popup.html#/ibc-transfer?chainId=froopyland_100-1&coinMinimalDenom=udym&initialGasAdjustment=1.3&initialIBCChannels=%5B%7B%22channelId%22%3A%22channel-7435%22%2C%22counterpartyChainId%22%3A%22umuddnode_4325425-1%22%2C%22portId%22%3A%22transfer%22%7D%5D&initialRecipient=ethm1plc2e7v4n4lrpjrv3qtskvlyrs4tfxn4fj6d8k&initialFeeCurrency=udym&initialFeeType=average&initialAmount=${randomAmount}`;
 
         await bekle(1000); // Sayfanın yüklenmesini bekleyin (gerektiğinde süreyi ayarlayın)
 
-        let nextBulundu = false;
-        let approveBulundu = false;
+        // Next düğmelerini seç
+        const nextButtons = document.querySelectorAll('#app > div > div > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div > div.sc-bczRLJ.DypIt > div > div > button');
 
-        try {
-            // İlk Next düğmesine tıkla
-            document.querySelector('#app > div > div > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div > div.sc-bczRLJ.DypIt > div > div > button').click();
-            nextBulundu = true;
-        } catch (error) {
-            nextBulundu = false;
-            console.error('İlk Next düğmesi bulunamadı. Tekrar deneyin.');
-        }
-
-        await bekle(1000); // Sayfanın yüklenmesini bekleyin (gerektiğinde süreyi ayarlayın)
-
-        try {
-            // İkinci Next düğmesine tıkla
-            document.querySelector('#app > div > div > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div > div.sc-bczRLJ.DypIt > div > div > button').click();
-            nextBulundu = true;
-        } catch (error) {
-            nextBulundu = false;
-            console.error('İkinci Next düğmesi bulunamadı. Tekrar deneyin.');
-        }
-
-        await bekle(1000); // Sayfanın yüklenmesini bekleyin (gerektiğinde süreyi ayarlayın)
-
-        try {
-            // Approve düğmesine tıkla
-            document.querySelector('#app > div > div > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div > div.sc-bczRLJ.DypIt > div > button').click();
-            approveBulundu = true;
-        } catch (error) {
-            approveBulundu = false;
-        }
-
-        // Eğer "Approve" düğmesi bulunamazsa ve en az bir "Next" düğmesi bulunmuşsa
-        if (!approveBulundu && nextBulundu) {
-            // Önceki "Next" düğmelerini bulup tıkla
+        // Next düğmelerine tıkla
+        for (const button of nextButtons) {
             try {
-                document.querySelector('#app > div > div > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div > div.sc-bczRLJ.DypIt > div > div > button').click();
+                button.click();
+                await bekle(1000); // Sayfanın yüklenmesini bekleyin (gerektiğinde süreyi ayarlayın)
             } catch (error) {
-                console.error('Önceki "Next" düğmeleri bulunamadı. Tekrar deneyin.');
+                console.error('Next düğmesi tıklanamadı. Tekrar deneyin.');
             }
         }
 
-        // Transaction Success elementini bulana kadar bekleyin
+        // Approve düğmesini seç
+        const approveButton = document.querySelector('#app > div > div > div > div.simplebar-wrapper > div.simplebar-mask > div > div > div > div > div.sc-bczRLJ.DypIt > div > button');
+
+        // Approve düğmesine tıkla
+        if (approveButton) {
+            try {
+                approveButton.click();
+                await bekle(1000); // Sayfanın yüklenmesini bekleyin (gerektiğinde süreyi ayarlayın)
+            } catch (error) {
+                console.error('Approve düğmesi tıklanamadı. Tekrar deneyin.');
+            }
+        }
+
+        // Transaction Success elementini kontrol et
         const transactionSuccess = document.querySelector('div.sc-bczRLJ.gHGHPk > div > div.sc-hKMtZM.sc-iqcoie.vhlUB.ehOBsB');
         if (transactionSuccess) {
             // İşlem başarıyla tamamlandığında döngüyü baştan başlatın
             continue;
         }
 
-        // İşlemi başarıyla tamamlandığında döngüyü baştan başlatın
+        // İşlem başarıyla tamamlanmadığında döngüyü baştan başlatın
         await bekle(3000); // Sayfanın yüklenmesini bekleyin (gerektiğinde süreyi ayarlayın)
     }
 }
 
 // Ana işlemi başlat
 anaIslem();
+
 ```
 #
 
