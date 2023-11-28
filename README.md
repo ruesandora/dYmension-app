@@ -239,7 +239,7 @@ async function anaIslem() {
         } while (randomAmount >= 1);
 
         // BASKASINA TRANSFER YAPACAKSANIZ BURDAKİ URLYİ DEĞİŞTİRİN. (default rues_221....)
-        window.location.href = `chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap/popup.html#/ibc-transfer?chainId=froopyland_100-1&coinMinimalDenom=udym&initialGasAdjustment=1.3&initialIBCChannels=%5B%7B%22channelId%22%3A%22channel-7435%22%2C%22counterpartyChainId%22%3A%22umuddnode_4325425-1%22%2C%22portId%22%3A%22transfer%22%7D%5D&initialRecipient=ethm1plc2e7v4n4lrpjrv3qtskvlyrs4tfxn4fj6d8k&initialFeeCurrency=udym&initialFeeType=average&initialAmount=${randomAmount}`;
+        window.location.href = `chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap/popup.html#/ibc-transfer?chainId=froopyland_100-1&coinMinimalDenom=udym&initialGasAdjustment=1.3&initialIBCChannels=%5B%7B%22channelId%22%3A%22channel-6195%22%2C%22counterpartyChainId%22%3A%22rues_2215298-1%22%2C%22portId%22%3A%22transfer%22%7D%5D&initialRecipient=ethm1hmssffakpll0d3hesk2j8s286zd9yfv0pzlcag&initialFeeCurrency=udym&initialFeeType=average&initialAmount=${randomAmount}`;
 
         await bekle(1000); // Sayfanın yüklenmesini bekleyin (gerektiğinde süreyi ayarlayın)
 
