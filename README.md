@@ -40,7 +40,7 @@
 > Hem Kendimizin hem de Communitydekilerin Rollup Aktif adresi artması için tüm rollupları sırasıyla kullanın.
 
 [rues_2215298-1](https://portal.dymension.xyz/rollapp/rues_2215298-1)
-[aazifiri_7919697-1](https://portal.dymension.xyz/rollapp/aazifiri_7919697-1)
+[aazifirii_2932875-1](https://portal.dymension.xyz/rollapp/aazifirii_2932875-1)
 [wwanyone_7167961-1](https://portal.dymension.xyz/rollapp/wwanyone_7167961-1)
 [vevivo_7131032-1](https://portal.dymension.xyz/rollapp/vevivo_7131032-1)
 [mutu_2624378-1](https://portal.dymension.xyz/rollapp/mutu_2624378-1)
