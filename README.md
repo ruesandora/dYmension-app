@@ -304,3 +304,7 @@ anaIslem();
 > Ne kadar çok doğru rollappta işlem yaparsak (tweette anlattım), o kadar iyi
 
 > Sonradan listeleyen kişiler Telegramdan @enzifiri ye ulaşsın.
+
+> RollAPPler için bir bot tasarladık, Rollappiniz Sarı ya da Kırmızı olduğunda her 30 dakika 1 size mesaj gönderecek.
+
+> https://t.me/froopyland_bot
